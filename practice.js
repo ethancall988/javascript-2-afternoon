@@ -15,7 +15,12 @@
 */
 
 //Code here
+let me = {
+  name: 'ethan',
+  age: 20
+}
 
+me.name
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,21 +29,30 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: '1',
+  food: '2',
+  person: '3',
+  book: '4',
+  movie: '5',
+  holiday: '6'
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-
+favoriteThings.car = '7'
+favoriteThings.brand = '8'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
@@ -50,11 +64,16 @@
 */
 
 //Code here
-
+let backPack = {
+  
+}
+let item = 'firstPocket'
+backPack[item] = 'chapstick'
+backPack.color = 'grey'
 /*
   After you do the above, alert your entire backPack object.
 */
-
+alert(backPack)
 //Code here
 
 /*
@@ -77,7 +96,8 @@ var user2 = {
   username: 'bryansmith33'
 };
 // Do not edit the code above.
-
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
 /*
   Let's say I, the user, decided to change my name and email address to the following:
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
@@ -97,6 +117,8 @@ var user2 = {
 
 //Code Here
 
+
+}
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
